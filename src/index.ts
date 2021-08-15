@@ -1,3 +1,3 @@
-import { stopForwarding } from './utils/actions'
+import { composeWithStateSync } from './main';
 
-export { stopForwarding }
+export { composeWithStateSync }
