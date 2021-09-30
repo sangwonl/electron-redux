@@ -1,5 +1,6 @@
-import { remote } from 'electron';
 import getInitialStateRenderer from '../getInitialStateRenderer';
+
+const remote = { getGlobal: {} };
 
 jest.unmock('../getInitialStateRenderer');
 
